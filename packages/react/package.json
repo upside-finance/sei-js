@@ -4,9 +4,6 @@
   "description": "React library for front end integrations with Sei",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist/*"
-  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "yarn build:types && yarn build:js && yarn build:prettier",

@@ -2,6 +2,9 @@
   "name": "sei-js",
   "version": "1.1.5",
   "license": "MIT",
+  "files": [
+    "**/dist/**"
+  ],
   "scripts": {
     "prepare": "npm run build:all",
     "build:all": "nx run-many --target=build",
